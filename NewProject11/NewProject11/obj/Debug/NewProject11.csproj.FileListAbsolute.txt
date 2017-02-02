@@ -1,0 +1,6 @@
+c:\users\haytham.elzahar\documents\visual studio 2013\Projects\NewProject11\NewProject11\bin\Debug\NewProject11.exe.config
+c:\users\haytham.elzahar\documents\visual studio 2013\Projects\NewProject11\NewProject11\bin\Debug\NewProject11.exe
+c:\users\haytham.elzahar\documents\visual studio 2013\Projects\NewProject11\NewProject11\bin\Debug\NewProject11.pdb
+c:\users\haytham.elzahar\documents\visual studio 2013\Projects\NewProject11\NewProject11\obj\Debug\NewProject11.csprojResolveAssemblyReference.cache
+c:\users\haytham.elzahar\documents\visual studio 2013\Projects\NewProject11\NewProject11\obj\Debug\NewProject11.exe
+c:\users\haytham.elzahar\documents\visual studio 2013\Projects\NewProject11\NewProject11\obj\Debug\NewProject11.pdb
