@@ -1,0 +1,183 @@
+﻿2017-10-02T13:08:20.7234166+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2017-10-02T13:08:20.9304166+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-10-02T13:08:20.9314166+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\haytham.elzahar\Documents\Visual Studio 2015\Projects\SpringerTests\SpringerTests\bin\Debug\SpringerTests.dll
+2017-10-02T13:08:20.9324166+01:00;VSTestExecutionThread;Info;Profile: Default
+2017-10-02T13:08:34.1164166+01:00;Thread#13;Info;Discovering target: Default
+2017-10-02T13:08:34.1184166+01:00;Thread#13;Info;Discovering tests from assembly: C:\Users\haytham.elzahar\Documents\Visual Studio 2015\Projects\SpringerTests\SpringerTests\bin\Debug\SpringerTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpringerTests/Default - 
+#1: Default - 
+#2: SpringerTests - 
+#3: AdvanceSearch - 
+#8: Search - 
+#4: Inputting valid texts in the Advanced Search fields - TestAssembly:SpringerTests/Feature:AdvanceSearch/Scenario:Inputting+valid+texts+in+the+Advanced+Search+fields
+#5: Negative test - Inputting valid texts in the Advanced Search fields - TestAssembly:SpringerTests/Feature:AdvanceSearch/Scenario:Negative+test+-+Inputting+valid+texts+in+the+Advanced+Search+fields
+#6: Inputting valid date in the Published date field, 2017 - TestAssembly:SpringerTests/Feature:AdvanceSearch/Scenario:Inputting+valid+date+in+the+Published+date+field%2c+2017
+#7: Inputting invalid date in the Published date field, 3000 - TestAssembly:SpringerTests/Feature:AdvanceSearch/Scenario:Inputting+invalid+date+in+the+Published+date+field%2c+3000
+#9: Inputting valid text in the Search bar, Maths - TestAssembly:SpringerTests/Feature:Search/Scenario:Inputting+valid+text+in+the+Search+bar%2c+Maths
+#10: Inputting valid text in the Search bar, Science - TestAssembly:SpringerTests/Feature:Search/Scenario:Inputting+valid+text+in+the+Search+bar%2c+Science
+#11: Inputting valid text in the Search bar, Soup - TestAssembly:SpringerTests/Feature:Search/Scenario:Inputting+valid+text+in+the+Search+bar%2c+Soup
+#12: Negative test - Inputting special characters in the Search bar, !"£!"£!"£"! - TestAssembly:SpringerTests/Feature:Search/Scenario:Negative+test+-+Inputting+special+characters+in+the+Search+bar%2c+!%22%c2%a3!%22%c2%a3!%22%c2%a3%22!
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpringerTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\haytham.elzahar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I am on Advance Search Page
+Thread#0:T:done: AdvanceSearchSteps.GivenIAmOnAdvanceSearchPage() (4.1s)
+Thread#0:B:When I Enter Maths in all search field
+Thread#0:T:done: AdvanceSearchSteps.WhenIEnterInAllSearchField("Maths") (0.2s)
+Thread#0:B:And I submit advance advance search
+Thread#0:T:done: AdvanceSearchSteps.WhenISubmitAdvanceAdvanceSearch() (2.8s)
+Thread#0:B:Then I receive search results with the 'Maths' in a title
+Thread#0:T:done: SharedSteps.ThenIReceiveSearchResultsWithTheInATitle("'Maths'") (0.4s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 9.813 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I am on Advance Search Page
+Thread#0:T:done: AdvanceSearchSteps.GivenIAmOnAdvanceSearchPage() (3.8s)
+Thread#0:B:When I Enter $%£%$£% in all search field
+Thread#0:T:done: AdvanceSearchSteps.WhenIEnterInAllSearchField("$%£%$£%") (0.2s)
+Thread#0:B:And I submit advance advance search
+Thread#0:T:done: AdvanceSearchSteps.WhenISubmitAdvanceAdvanceSearch() (1.5s)
+Thread#0:B:Then I receive not found message
+Thread#0:T:done: SharedSteps.ThenIReceiveNotFoundMessage() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 7.429 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I am on Advance Search Page
+Thread#0:T:done: AdvanceSearchSteps.GivenIAmOnAdvanceSearchPage() (2.5s)
+Thread#0:B:When I input a date in the 2017 and 2017
+Thread#0:T:done: AdvanceSearchSteps.WhenIInputADateInTheAnd("2017", "2017") (0.4s)
+Thread#0:B:And I submit advance advance search
+Thread#0:T:done: AdvanceSearchSteps.WhenISubmitAdvanceAdvanceSearch() (2.5s)
+Thread#0:B:Then I receive search results inbetween 2017 and 2017
+Thread#0:T:done: AdvanceSearchSteps.ThenIReceiveSearchResultsInbetweenAnd("2017", "2017") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 7.39 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I am on Advance Search Page
+Thread#0:T:done: AdvanceSearchSteps.GivenIAmOnAdvanceSearchPage() (3.5s)
+Thread#0:B:When I input a date in the 3000 and 3001
+Thread#0:T:done: AdvanceSearchSteps.WhenIInputADateInTheAnd("3000", "3001") (0.4s)
+Thread#0:B:And I submit advance advance search
+Thread#0:T:done: AdvanceSearchSteps.WhenISubmitAdvanceAdvanceSearch() (2.1s)
+Thread#0:B:Then I receive not found message
+Thread#0:T:done: SharedSteps.ThenIReceiveNotFoundMessage() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 7.833 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:Given I am on Search Page
+Thread#0:T:done: SearchSteps.GivenIAmOnSearchPage() (3.5s)
+Thread#0:B:When I search for the Maths
+Thread#0:T:done: SearchSteps.WhenISearchForThe("Maths") (3.3s)
+Thread#0:B:Then I receive search results with the Maths in a title
+Thread#0:T:done: SharedSteps.ThenIReceiveSearchResultsWithTheInATitle("Maths") (0.4s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #10 from normal test queue 
+Thread#0:Scheduler: considering testitem #10 for thread 0
+Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #10 for thread 0
+Thread#0:Scheduler: Test #10 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 9.019 seconds
+Thread#0: Test #10/0 is started on thread #0
+Thread#0:B:Given I am on Search Page
+Thread#0:T:done: SearchSteps.GivenIAmOnSearchPage() (4.0s)
+Thread#0:B:When I search for the Science
+Thread#0:T:done: SearchSteps.WhenISearchForThe("Science") (2.7s)
+Thread#0:B:Then I receive search results with the Science in a title
+Thread#0:T:done: SharedSteps.ThenIReceiveSearchResultsWithTheInATitle("Science") (0.2s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #11 from normal test queue 
+Thread#0:Scheduler: considering testitem #11 for thread 0
+Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #11 for thread 0
+Thread#0:Scheduler: Test #11 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 8.633 seconds
+Thread#0: Test #11/0 is started on thread #0
+Thread#0:B:Given I am on Search Page
+Thread#0:T:done: SearchSteps.GivenIAmOnSearchPage() (4.3s)
+Thread#0:B:When I search for the Soup
+Thread#0:T:done: SearchSteps.WhenISearchForThe("Soup") (2.6s)
+Thread#0:B:Then I receive search results with the Soup in a title
+Thread#0:T:done: SharedSteps.ThenIReceiveSearchResultsWithTheInATitle("Soup") (0.3s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread 0
+Thread#0:TestItem#12:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#12:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#12:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #12 for thread 0
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 8.975 seconds
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:B:Given I am on Search Page
+Thread#0:T:done: SearchSteps.GivenIAmOnSearchPage() (4.8s)
+Thread#0:B:When I search for the !"£!"£!"£"!
+Thread#0:T:done: SearchSteps.WhenISearchForThe("!"£!"£!"£"!") (2.5s)
+Thread#0:B:Then I receive not found message
+Thread#0:T:done: SharedSteps.ThenIReceiveNotFoundMessage() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 9.225 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 8
+Succeeded: 8
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
